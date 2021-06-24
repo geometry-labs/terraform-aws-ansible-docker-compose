@@ -39,5 +39,5 @@ resource "aws_instance" "this" {
     delete_on_termination = true
   }
 
-  tags = merge({ name = local.name }, var.tags)
+  tags = merge({ Name = local.name }, var.tags)
 }
