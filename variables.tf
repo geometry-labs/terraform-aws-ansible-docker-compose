@@ -34,7 +34,7 @@ variable "root_volume_size" {
 variable "instance_type" {
   description = "Instance type"
   type        = string
-  default     = "t2.medium"
+  default     = "t3a.small"
 }
 
 variable "public_key_path" {
